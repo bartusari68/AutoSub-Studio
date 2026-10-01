@@ -44,3 +44,9 @@ desktop.ini
 .env.*
 # Release builds
 dist/
+
+# R temporary files
+.Rhistory
+
+# Local release builds
+dist/
