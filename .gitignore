@@ -42,3 +42,5 @@ desktop.ini
 # Secrets
 .env
 .env.*
+# Release builds
+dist/
