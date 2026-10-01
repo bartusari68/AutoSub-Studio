@@ -1,0 +1,44 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Models / caches
+.cache/
+models/
+huggingface/
+*.bin
+*.safetensors
+
+# AutoSub outputs
+output/
+outputs/
+*.words.json
+*.timeline.json
+*.source.srt
+
+# Video / audio
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.webm
+*.wav
+*.mp3
+
+# Temporary FFmpeg
+__autosub_*
+*.log
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets
+.env
+.env.*
